@@ -1,11 +1,7 @@
 HELD-OUT SET — MODEL-GENERATED CONCEPT ANNOTATIONS
 Sample size: 100 problems
-Annotation resource: codebook B(3), 45 entries
-Status: preliminary model-generated annotations; not human-validated
+Annotation resource: codebook B(3)
 
-Annotation principle: retain only concepts explicitly grounded in the problem statement;
-use normalized labels defined by B(3), preserve explicit symbolic distinctions,
-and do not add concepts inferred only from a possible solution strategy.
 
 ============================================================================================
 QUESTION 1
