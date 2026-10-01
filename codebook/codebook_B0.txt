@@ -1,0 +1,58 @@
+CODEBOOK B(0) — AFTER ROUND 0
+
+
+ENTRIES
+
+1. Explicit grounding
+Annotate a concept only when it is supported by an identifiable word, expression, or mathematical symbol in the problem statement.
+
+2. Textual support
+A concept may be included when it is explicitly expressed in the natural-language text.
+
+3. Symbolic support
+A concept may be included when it is explicitly represented by mathematical notation.
+
+4. Preserve explicit distinctions
+Preserve distinctions that are explicitly encoded in the notation.
+
+5. No unstated properties
+Do not infer mathematical properties that are not explicitly represented.
+
+6. No contextual inference
+Do not add concepts solely from contextual or background mathematical knowledge.
+
+7. No solution-strategy inference
+Do not add concepts that are required only by a possible solution strategy.
+
+8. Normalized terminology
+Use the normalized labels defined in the codebook.
+
+9. Inclusion criteria
+Apply the inclusion criteria associated with each normalized label.
+
+10. Exclusion criteria
+Apply the exclusion criteria associated with each normalized label.
+
+11. Synonymous duplicates
+Remove synonymous duplicate labels from the same annotation.
+
+12. One normalized label per concept
+Represent a recurring concept with a single normalized label.
+
+13. Mathematical content only
+Annotate mathematical concepts rather than characteristics of the question or its presentation.
+
+14. Direct evidence
+Each annotation must be traceable to explicit textual or symbolic evidence in the statement.
+
+15. No post-hoc derivation
+Do not add a concept only because it becomes visible after solving, simplifying, or transforming the problem.
+
+16. Fixed resources within a round
+Use the same version of the prompt and codebook for every problem processed in the same annotation round.
+
+17. Human validation
+Model-generated annotations are preliminary and must be human-validated before they are treated as reference annotations.
+
+18. Revision only after validation
+Revise the codebook only after the round has been completed and the disagreements have been human-validated.
