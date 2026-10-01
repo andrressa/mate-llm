@@ -1,0 +1,500 @@
+QUESTION 1
+Determine the interval in which the parameter \(a\) must lie if the point of minima of the function \(f(x) = 1 + a^2x - x^3\) satisfies the inequality \(\frac{x^2 + x + 1}{x^2 + 5x + 6} < 0\). Choose the correct interval from the options below: (A) \((-3\sqrt{3}, 3\sqrt{3})\) (B) \((-2\sqrt{3}, -3\sqrt{3})\) (C) \((2\sqrt{3}, 3\sqrt{3})\) (D) \((-3\sqrt{3}, -2\sqrt{3}) \cup (2\sqrt{3}, 3\sqrt{3})\)
+
+================================================================================
+
+QUESTION 2
+Evaluate the limit: $$\lim_{n\to\infty} \left(\frac{1^p+2^p+3^p + \cdots + n^p}{n^p} - \frac{n}{p+1}\right)$$ where \( p \) is a natural number.
+
+================================================================================
+
+QUESTION 3
+Let $X$ be a compact metric space, and let $\{f_k\}$ be a sequence of continuous functions on $X$ that converges uniformly to a function $f$. If $\int_X f_k = 1$ for all $k$, does it follow that $\int_X f = 1$?
+
+================================================================================
+
+QUESTION 4
+Evaluate the limit: $$\lim\limits_{y\rightarrow 0}g(y)=\lim\limits_{y \rightarrow 0}3y\int_{y^2}^{y}\frac{x^2\sin(x^2y^3)}{x^2+\cos(x^2y^3)}dx$$ where $x,y \in \mathbb{R}$ and $|y| < 1$.
+
+================================================================================
+
+QUESTION 5
+In a group of 100 students, each student can join clubs based on friendships. Initially, clubs are founded by three students each. From September 1, any student who is friends with at least three members of a club joins that club. By February 19, all students have joined the "Cheetahs" club. Determine if it is possible for exactly 50 students to be members of the "Turtles" club on the same day.
+
+================================================================================
+
+QUESTION 6
+Let \( g(n) \) be a function defined for all integers \( n \geq 0 \) as follows: \[ g(n) = \begin{cases} 0, & \text{if } n=0 \\ 1+g(n/2), & \text{if } n > 0 \text{ and } n \text{ is even} \\ 1+g(n-1), & \text{if } n > 0 \text{ and } n \text{ is odd} \end{cases} \] Determine the value of \( g(2^l + 2^k) \) where \( l > k \geq 0 \) are integers.
+
+================================================================================
+
+QUESTION 7
+Evaluate the limit: $$ \lim_{n \to \infty } \frac{\ln(1+n)-\ln(n^{2})}{\sin(1/n)} $$
+
+================================================================================
+
+QUESTION 8
+Given a surface represented by the function $z = f(u, w)$, with a point $p_1(u_1, v_1)$ and a closed boundary $eta(u, v)$ defined by $(u - u_1)^2 + (v - v_1)^2 = 0.01$, calculate the surface area $s_1$. If there is a tangent plane at $p_1$ and another point $p_2(u_2, v_2)$ lies in the $f_u$ direction near $p_1$, with a similar boundary and surface area $s_2$, determine the relative size of $s_2$ compared to $s_1$. Provide your answer as a ratio or percentage.
+
+================================================================================
+
+QUESTION 9
+Evaluate the limit: \[ \lim _ { n \rightarrow \infty } \frac { \sum _ { k = 1 } ^ { n } 3 ^ { - k ^ { 2 } } } { 3 ^ { - n ^ { 2 } } }. \]
+
+================================================================================
+
+QUESTION 10
+In a group of $n$ children of different heights, they randomly form a circle. Each child considers themselves "tall" if they are taller than both their immediate neighbors. Define the random variable $\xi_i$ to be 1 if the $i$th child considers themselves tall, and 0 otherwise. Find the expected value of $\sum_{i=1}^n \xi_i$. \( \text{Express your answer in terms of } n. \)
+
+================================================================================
+
+QUESTION 11
+Let $A$ be a $3\times3$ matrix such that $A^{2} = 4A - 4I$. Determine the possible eigenvalues of $A$.
+
+================================================================================
+
+QUESTION 12
+Find the value of $M$ such that in the polynomial equation $x^4+x^3+5x^2-x+M=0$, the sum of two roots equals the product of the other two roots.
+
+================================================================================
+
+QUESTION 13
+Determine whether there exists a non-Abelian group $G$ such that for any two subgroups $A$ and $B$ of $G$, the product $AB = \{ab \in G : a \in A \land b \in B\}$ is always a subgroup of $G$. Provide a counter-example or a proof of impossibility.
+
+================================================================================
+
+QUESTION 14
+Let $f(x) = 3x-8$ and $g(f(x)) = 2x^2 + 5x - 3.$ Find $g(-5).$
+
+================================================================================
+
+QUESTION 15
+Simplify \[\left( \frac{3 + i \sqrt{3}}{2} \right)^8 + \left( \frac{3 - i \sqrt{3}}{2} \right)^8.\]
+
+================================================================================
+
+QUESTION 16
+Determine whether it is possible for the product of the orders of two elements, $x$ and $y$, to be greater than $\\phi(m)$ in the context of the proof of $\\ord(ab)\\equiv xy \\pmod{\\phi(m)}$. Provide a justification for your answer.
+
+================================================================================
+
+QUESTION 17
+Find the solutions to $z^3 = -8.$ Enter the solutions, separated by commas.
+
+================================================================================
+
+QUESTION 18
+Regular hexagon $ABCDEF$ is divided into six smaller equilateral triangles, such as $\triangle ABG$, shown in boldface in the diagram. By connecting every other vertex, we obtain a larger equilateral triangle $\triangle ACE$, also shown in boldface. Compute the ratio $[\triangle ABG]/[\triangle ACE]$. [asy] size(150); defaultpen(linewidth(0.8)); dotfactor=5; pair[] hex = new pair[6]; string[] hexlabels = {"$C$","$B$","$A$","$F$","$E$","$D$"}; hexlabels.cyclic=true; hex[0] = dir(0); for(int i = 1; i <= 6; ++i){ hex[i] = dir(60*i); draw(hex[i] -- hex[i-1]); dot(hexlabels[i],hex[i],hex[i]); } draw(hex[0]--hex[3]); draw(hex[1]--hex[4]); draw(hex[2]--hex[5]); draw(hex[0]--hex[2]--hex[4]--cycle,linewidth(1.3)); draw(hex[1]--hex[2]--(0,0)--cycle,linewidth(1.3)); dot("$G$",(0,0),2*S); [/asy]
+
+================================================================================
+
+QUESTION 19
+Determine the space complexity of storing bit string representations of the numbers in the factorial sequence.
+
+================================================================================
+
+QUESTION 20
+Evaluate the surface integral \(\iint_S \nabla \times \vec{V} \cdot \hat{n} \, dS\) where \(S\) is the surface of the cone \(z = \sqrt{x^2 + y^2}\) between the planes \(z = 1\) and \(z = 2\), and \(\vec{V} = y^3 \hat{i} + x^3 \hat{j} + z^3 \hat{k}\).
+
+================================================================================
+
+QUESTION 21
+Evaluate the limit \( \lim_{n \to \infty} \frac{\log \left( \sum_{k=2}^n \varphi(k) \right)}{\log(n)} \). Does this limit approach 2?
+
+================================================================================
+
+QUESTION 22
+Is the number of conjugacy classes of a group $G$ equal to the number of elements in its abelianization $G/N$, where $N$ is the normal subgroup generated by all commutators $g^{-1}h^{-1}gh$?
+
+================================================================================
+
+QUESTION 23
+Evaluate \( \lim_{n\to \infty}\int_{0}^{1}\frac{n\cos{x}}{1+n^2x^2}dx \) using convergence theorems.
+
+================================================================================
+
+QUESTION 24
+Evaluate the limit: \[ \lim_{y \to 0^+} (\cosh (3/y))^y \]
+
+================================================================================
+
+QUESTION 25
+A 6-sided die is biased such that rolling a 1 is twice as likely as rolling any other number, and the probabilities for rolling 2, 3, 4, 5, and 6 are equal. Specifically, the probabilities are given by: \( p(1) = \frac{2}{7} \) and \( p(2) = p(3) = p(4) = p(5) = p(6) = \frac{1}{7} \). What is the expected number of rolls needed to obtain each value at least once?
+
+================================================================================
+
+QUESTION 26
+Is $K$, the kernel of $G_{\alpha}$ acting on $\Omega - \alpha$, also the kernel of $G$ acting on $\Omega$?
+
+================================================================================
+
+QUESTION 27
+Determine the nilpotency class of the dihedral group $D_{16}$ using the upper central series.
+
+================================================================================
+
+QUESTION 28
+Evaluate the sum: $$\sum_{r=0}^{50}(-1)^r \dfrac{\binom {50}{r}}{r+2}$$
+
+================================================================================
+
+QUESTION 29
+Determine the critical exponent \( \lambda \) of the function \( f(x) = Ax^{1/2} + Bx^{1/4} + Cx \), where \( A, B, C \in \mathbb{R} \). The critical exponent is defined as: \[ \lambda := \lim_{x \to 0} \frac{ \ln(|f(x)|) } { \ln(|x|) } \]
+
+================================================================================
+
+QUESTION 30
+Determine the positive integer values of \( k \) for which the expression \( N = 3^{6n-1} - k \cdot 2^{3n-2} + 1 \) is divisible by 7 for every positive integer \( n \).
+
+================================================================================
+
+QUESTION 31
+Let $K \subset \mathbb{R}^n$ be a compact set such that each $x \in K$ is associated with a positive number $r_x > 0$. Is it always possible to cover $K$ with a family of balls \( \mathcal{B} = \{ B(x_i, r_i) : i = 1, \dots, k \} \), where \( r_i := r_{x_i} \), such that for any distinct \( i, j \le k \), we have \( x_i \notin B(x_j, r_j) \) and \( x_j \notin B(x_i, r_i) \)?
+
+================================================================================
+
+QUESTION 32
+Determine the number of polynomials \( f \) that satisfy the condition \( f\left(x^{2}\right)=[f(x)]^{2}=f(f(x)) \). Choose the correct option: (A) 0, (B) 1, (C) 2, (D) Finite integer greater than 2, (E) Infinite.
+
+================================================================================
+
+QUESTION 33
+Given a differentiable scalar field \( f \), the directional derivative at the point \((1,2)\) is 2 in the direction toward \((2,2)\) and -2 in the direction toward \((1,1)\). Determine the gradient vector of \( f \) at the point \((1,2)\).
+
+================================================================================
+
+QUESTION 34
+Let $(X,d)$ be a connected compact metric space. Given a radius $R > 0$, does there exist a finite family $B_1, B_2, \ldots, B_n$ of open balls in $X$ such that $B_i \cap B_{i+1} \neq \emptyset$ for $i = 1, \ldots, n-1$ and $X = \bigcup_{k=1}^n B_k$?
+
+================================================================================
+
+QUESTION 35
+Evaluate the sum of the series \(\sum_{n=0}^{\infty}\frac{(-1)^{n}(n+3)}{(n+2)!}\).
+
+================================================================================
+
+QUESTION 36
+Determine the number of values of \(x\) in the interval \((0, 20)\) such that \(\{x\} + \{x^2\} = 1\), where \(\{\}\) denotes the fractional part of a number.
+
+================================================================================
+
+QUESTION 37
+Evaluate the improper integral \( I = \int^{\infty}_0 (y^{\frac{1}{2}}e^{-\frac{1}{2}y})dy \) using the fact that \( \int^{\infty}_0 (e^{-x^2})dx = \frac{\sqrt{\pi}}{2} \).
+
+================================================================================
+
+QUESTION 38
+Find all possible values of $x$ such that \( \tan^{-1}(x+1) + \tan^{-1}(x) + \tan^{-1}(x-1) = \tan^{-1}(3) \). Consider the domain restrictions of the inverse tangent function.
+
+================================================================================
+
+QUESTION 39
+Let $\{C_\alpha\}_{\alpha \in A}$ be objects in a concrete category, and let the product object $C = \Pi C_{\alpha \in A}$ exist with corresponding projections $\{\pi_\alpha\}$. If $x, y \in C$ and $\pi_\alpha (x) = \pi_\alpha (y)$ for all $\alpha$, does it follow that $x = y$? Answer yes or no.
+
+================================================================================
+
+QUESTION 40
+Max has a spinner that lands on 1 with a probability of $\frac{1}{2}$, lands on 2 with a probability of $\frac{1}{4}$, lands on 3 with a probability of $\frac{1}{6}$, and lands on 4 with a probability of $\frac{1}{12}$. If Max spins the spinner, and then Zack spins the spinner, then what is the probability that Max gets a larger number than Zack does?
+
+================================================================================
+
+QUESTION 41
+Calculate the flux of the vector field \( \mathbf{F} = 2\mathbf{i} + 4\mathbf{j} + 2\mathbf{k} \) across the surface of the part of the plane \( 2x + 6y + 2z = 6 \) that lies in the first octant, with the surface oriented upwards.
+
+================================================================================
+
+QUESTION 42
+Find the number of non-isomorphic groups of order 168 using the Sylow theorems and semi-direct products.
+
+================================================================================
+
+QUESTION 43
+Evaluate the limit: \[ \lim_{x \to 0} \frac{\sqrt{1 + \tan x} - \sqrt{1 + \sin x}}{x^3} \]
+
+================================================================================
+
+QUESTION 44
+The four zeros of the polynomial $x^4 + jx^2 + kx + 225$ are distinct real numbers in arithmetic progression. Compute the value of $j.$
+
+================================================================================
+
+QUESTION 45
+Solve the equation \(-2^x + 3^{x/2} + 1 = 0\) for integer values of \(x\).
+
+================================================================================
+
+QUESTION 46
+Can there be a division ring containing an algebraically closed field $K$ such that the dimension of the division ring over $K$ is finite?
+
+================================================================================
+
+QUESTION 47
+Determine whether the Weyl tensor is always zero or undefined in two dimensions.
+
+================================================================================
+
+QUESTION 48
+Evaluate the limit \( \lim_{x \to 0} \left( \frac{\tan x}{x} \right)^{\frac{1}{1-\cos x}} \) without using L'Hopital's rule or series expansion.
+
+================================================================================
+
+QUESTION 49
+Assume $u$ is a harmonic function on $\mathbb{R}^3$, and $u(x,y,z)=1+x$ on the surface of the unit sphere $x^2+y^2+z^2=1$. Determine the value of $u(0,0,0)$. \( \boxed{?} \)
+
+================================================================================
+
+QUESTION 50
+Evaluate the line integral \( \oint_C \mathbf{F} \cdot \, \mathrm{d} \mathbf{r} \) where \( \mathbf{F} = (e^x + xy) \mathbf{i} + (e^y - xy^2) \mathbf{j} \) and \( C \) is the circle \( x^2 + y^2 = 4 \), oriented clockwise. Use Green's Theorem to compute the integral as a double integral over the interior of the circle.
+
+================================================================================
+
+QUESTION 51
+Find the length of the curve given by the polar equation \( r = a\cos(\theta) \). Assume \( a \) is positive.
+
+================================================================================
+
+QUESTION 52
+Determine the Galois group of the polynomial $x^5 - 6x + 3$ over the field of rational numbers $\mathbb{Q}$. Assume $\alpha$ is a root of the polynomial.
+
+================================================================================
+
+QUESTION 53
+Find the coordinates of the point \( M(x, y, z) \) that is symmetric to the point \( B_1(5, 8, -3) \) with respect to the line passing through the points \( B(3, 4, 1) \) and \( A_1(1, 6, -7) \).
+
+================================================================================
+
+QUESTION 54
+Determine the range of $x$ for which the inequality \( \frac{1}{n+1}+\frac{1}{n+2}+\cdots+\frac{1}{2n} > \frac{7}{12} \cdot \left( \log_{a+1} x - \log_a x + 1 \right) \) holds for any positive integer $n \geq 2$ when $a > 1$. Choose the correct option: A. $2 < x < \frac{29}{17}$ B. $0 < x < 1$ C. $0 < x < 4$ D. $x > 1$
+
+================================================================================
+
+QUESTION 55
+The area of the floor in a square room is 225 square feet. The homeowners plan to cover the floor with rows of 6-inch by 6-inch tiles. How many tiles will be in each row?
+
+================================================================================
+
+QUESTION 56
+Calculate the Lebesgue integral of the function $g(x)$ over the interval $[0,1]$, where $g(x)$ is defined as follows: $$g(x)= \begin{cases}10^n, & x\in (10^{-n},10^{-n+1}]\\0, & x=0\end{cases}$$
+
+================================================================================
+
+QUESTION 57
+Evaluate the limit: $$ \lim_{n \to \infty} n^{(n+1)/n} (n+1)^{(-n-2)/(n+1)} $$
+
+================================================================================
+
+QUESTION 58
+A particle moves on 12 points situated on a circle. At each step, it is equally likely to move one step in the clockwise or counterclockwise direction. Find the mean number of steps for the particle to return to its starting position.
+
+================================================================================
+
+QUESTION 59
+Determine all real numbers \( p \) such that the cubic equation \( 5x^3 - 5(p+1)x^2 + (71p-1)x + 1 = 66p \) has three natural number roots.
+
+================================================================================
+
+QUESTION 60
+Are all orthogonal operators on finite-dimensional subspaces of \(\mathbb{R}^n\) surjective?
+
+================================================================================
+
+QUESTION 61
+Determine whether the limit \( \lim_{x\to \infty} \left[\frac{p(x)}{e^x}\right] \) always converges to 0, where \( p(x) \) is a polynomial.
+
+================================================================================
+
+QUESTION 62
+Find the smallest integer $n$ such that $10^{17} < n!$. Provide your answer as an integer.
+
+================================================================================
+
+QUESTION 63
+In a simple symmetric random walk (SSRW) on the 1D integer lattice, does the walk hit every integer infinitely many times with probability one?
+
+================================================================================
+
+QUESTION 64
+Given that \( z = f(x, y) \) where \( x = e^u \cos(v) \) and \( y = e^u \sin(v) \), find the value of \( y\frac{\partial z}{\partial u} + x\frac{\partial z}{\partial v} \). Choose the correct option: (A) \( e^{2u}\frac{\partial z}{\partial y} \) (B) \( e^{2u}\frac{\partial z}{\partial x} \) (C) \( e^{2u}\left(\frac{\partial z}{\partial x} + \frac{\partial z}{\partial y}\right) \) (D) 0
+
+================================================================================
+
+QUESTION 65
+Evaluate the limit as \( n \to \infty \) of the integral: \[ \lim_{{n\to \infty}}\int_{0}^{1}\int_{0}^{1}{\cdots \int_{0}^{1}{{{\left( \frac{{{x}_{1}}+{{x}_{2}}+...+{{x}_{n}}}{n} \right)}^{2}}d{{x}_{1}}d{{x}_{2}}\cdots d{{x}_{n}}} \]
+
+================================================================================
+
+QUESTION 66
+In triangle ABC, where AB = 10 cm and AC = 12 cm, the incenter (I) and the centroid (G) lie on a line parallel to side BC. Determine the length of side BC.
+
+================================================================================
+
+QUESTION 67
+Find the degree of the splitting field of the polynomial $x^{12}-1$ over the finite field $\Bbb F_7$. \(\text{Express your answer as an integer.}\)
+
+================================================================================
+
+QUESTION 68
+What is the maximum number of moves required to solve any solvable configuration of the 8-puzzle?
+
+================================================================================
+
+QUESTION 69
+Find the rank of the linear transformation \( T: M_{8\times 8}(F) \to M_{8\times 8}(F) \) defined by \( T(A) = A - A^T \).
+
+================================================================================
+
+QUESTION 70
+If $A$ and $B$ are unitary matrices, is the matrix $A + B$ necessarily unitary?
+
+================================================================================
+
+QUESTION 71
+Determine the number of distinct cosets of the ideal \( J = \left\{ \begin{pmatrix} 2a_1 & 2a_2 \\ 2a_3 & 2a_4 \end{pmatrix} \mid a_i \in \mathbb{Z} \right\} \) in the ring \( S = \left\{ \begin{pmatrix} a_1 & a_2 \\ a_3 & a_4 \end{pmatrix} \mid a_i \in \mathbb{Z} \right\} \).
+
+================================================================================
+
+QUESTION 72
+For any integer $n>1$, the number of prime numbers greater than $n!+1$ and less than $n!+n$ is: $\text{(A) } 0\quad\qquad \text{(B) } 1\quad\\ \text{(C) } \frac{n}{2} \text{ for n even, } \frac{n+1}{2} \text{ for n odd}\quad\\ \text{(D) } n-1\quad \text{(E) } n$
+
+================================================================================
+
+QUESTION 73
+Given a sequence of integers $f(i)$ satisfying $1 \leq f(i) \leq i$ for $i = 1, 2, \ldots, 2^{n-1}$, determine if there exists a subsequence $a_1, a_2, \ldots, a_k$ with $1 = a_1 < a_2 < \cdots < a_k \leq 2^{n-1}$ such that the corresponding subsequence $f(a_1), f(a_2), \ldots, f(a_k)$ is non-decreasing and has length at least $n$. Answer with "yes" or "no."
+
+================================================================================
+
+QUESTION 74
+If every irreducible representation of a finite group has dimension 1, is the group necessarily abelian?
+
+================================================================================
+
+QUESTION 75
+Determine whether every invertible real matrix can be decomposed into an orthogonal matrix and a symmetric positive-definite matrix, such that $M = OP$, where $O$ is orthogonal and $P$ is symmetric positive-definite.
+
+================================================================================
+
+QUESTION 76
+A square with vertices at \((0,0), (0,1), (1,0), (1,1)\) rotates around its center. Determine the area of the trajectory traced out by the square.
+
+================================================================================
+
+QUESTION 77
+If $K:F$ is a finite field extension and $F \subseteq E \subseteq K$, is the extension $K:E$ also finite? Justify your answer.
+
+================================================================================
+
+QUESTION 78
+Evaluate the integral \( \int_C \left(\frac{z+1}{z}\right)^{2n} \frac{dz}{z} \) where \( C \) is the unit circle centered at the origin, using Cauchy's differentiation formula.
+
+================================================================================
+
+QUESTION 79
+What is the rank of the integer \(-4\) when represented as an equivalence class of ordered pairs of natural numbers? Is it \(\omega\) or \(\omega+1\)?
+
+================================================================================
+
+QUESTION 80
+Determine whether the following statement is true or false: Every set of measure zero is countable.
+
+================================================================================
+
+QUESTION 81
+Given the cubic function \(f(x) = 2x^3 + ax^2 + bx\), where \(a\) and \(b\) are natural numbers, the graph intersects the \(x\)-axis at three distinct points. Find the minimum possible value of \(a + b\).
+
+================================================================================
+
+QUESTION 82
+Determine the number of distinct terms in the expansion of \((x+\frac{1}{x}+x^2+\frac{1}{x^2})^{15}\).
+
+================================================================================
+
+QUESTION 83
+Evaluate the series: \[ \sum_{k=1}^{\infty}\frac{1}{k(k+1)^2k!} \]
+
+================================================================================
+
+QUESTION 84
+In a graph where each vertex has a degree $d$, determine the minimum length of a path that can be constructed using a greedy algorithm.
+
+================================================================================
+
+QUESTION 85
+Let $G = P \ltimes Q$ be a finite group where $P$ is a maximal subgroup of $G$, non-normal, cyclic, and satisfies $P = C_G(P) = N_G(P)$. The derived subgroup $G' = Q \cong C_q \times C_q \times C_q$, with $p$ and $q$ being distinct primes. Assume that for any two distinct non-normal non-cyclic subgroups $H$ and $K$ of $G$, they are conjugate in $G$. There exists a homomorphism $\varphi : P \to \text{Aut}(Q) \cong GL(3,q)$, and $\text{Ker}(\varphi) = C_P(Q) = Z(G)$. Prove that $P \cong C_p$, where $p = q^2 + q + 1$ is a prime.
+
+================================================================================
+
+QUESTION 86
+The graph of the equation $9x+223y=2007$ is drawn on graph paper with each square representing one unit in each direction. How many of the $1$ by $1$ graph paper squares have interiors lying entirely below the graph and entirely in the first quadrant?
+
+================================================================================
+
+QUESTION 87
+Evaluate the line integral \( \int_{\alpha} f \, ds \) where \( f(x, y) = x^2 y^2 \) and the path \( \alpha(t) = (\cos t, \sin t) \) for \( 0 \leq t \leq 4\pi \).
+
+================================================================================
+
+QUESTION 88
+Find the closed form solution for the integral \( \frac{1}{2\pi}\int_0^{2\pi} e^{ik(x-\sin x)} \, dx \), where \( k \in \mathbb{Z} \). The solution is related to the modified Bessel function of the first kind.
+
+================================================================================
+
+QUESTION 89
+In triangle \(ABC\), the altitudes intersect at the orthocenter \(H\). Given that \(AB = CH\), determine the measure of \(\angle ACB\).
+
+================================================================================
+
+QUESTION 90
+Determine for which real values of $p$ the integral \( \int_0^1 e^{x}x^p\ dx \) converges.
+
+================================================================================
+
+QUESTION 91
+Yakob and Baptiste play on a $20 \times 20$ grid where the cells are square with a side length of 1. The distance between two cells is the distance between their centers. They take turns as follows: Yakob places a red stone on a cell, ensuring that the distance between two cells with red stones is never $\sqrt{5}$, and Baptiste places a blue stone on the grid without any restrictions. The game stops when one of them can no longer place a stone. Determine the largest number $K$ such that Yakob can always place at least $K$ stones, regardless of Baptiste's responses.
+
+================================================================================
+
+QUESTION 92
+Given a linear model \(Y = X\beta + \epsilon\) with three treatments and six subjects, where \(X\) is the design matrix, consider the following design matrices: \[ X = \begin{bmatrix} 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \\ 1 & -1 & -1 \\ 1 & -1 & -1 \end{bmatrix} \] and \[ X' = \begin{bmatrix} 1 & 0 & 0 \\ 1 & 0 & 0 \\ 1 & 1 & 0 \\ 1 & 1 & 0 \\ 1 & 0 & 1 \\ 1 & 0 & 1 \end{bmatrix} \] with the response vector \(Y = [Y_{11}, Y_{12}, Y_{21}, Y_{22}, Y_{31}, Y_{32}]^T\) and the constraint \(\sum_{i=1}^{3}\beta_i = 0\). Do these two matrices represent the same model? Justify your answer.
+
+================================================================================
+
+QUESTION 93
+Olga purchases a rectangular mirror (the shaded region) that fits exactly inside a frame. The outer perimeter of the frame measures 60 cm by 80 cm. The width of each side of the frame is 10 cm. What is the area of the mirror? [asy] unitsize(0.15inch); defaultpen(black); draw(((0,0)--(8,0)--(8,6)--(0,6)--cycle)); draw(((1,1)--(7,1)--(7,5)--(1,5)--cycle)); fill(((1,1)--(7,1)--(7,5)--(1,5)--cycle),gray); draw(((0,-.7)--(2.3,-.7))); draw(((5.7,-.7)--(8,-.7))); draw(((0,-.5)--(0,-.9))); draw(((8,-.5)--(8,-.9))); label("80 cm",(4,0),S); draw(((-1.8,0)--(-1.8,2.5))); draw(((-1.8,3.5)--(-1.8,6))); draw(((-2,0)--(-1.6,0))); draw(((-2,6)--(-1.6,6))); label("60 cm",(0,3),W); draw(((7,6.7)--(8,6.7))); draw(((7,6.5)--(7,6.9))); draw(((8,6.5)--(8,6.9))); label("10 cm",(7.5,6.7),N); [/asy]
+
+================================================================================
+
+QUESTION 94
+Given the function $u(x, y) = x^3 - 3xy^2$, find the analytical function $f(z) = u(x, y) + iv(x, y)$, where $v(x, y)$ is the conjugate harmonic function of $u(x, y)$. Use the Cauchy-Riemann equations to determine $v(x, y)$. What is the function $f(z)$?
+
+================================================================================
+
+QUESTION 95
+Determine the Galois group of the polynomial \(x^4 + 12x^3 + 44x^2 + 48x + 40\) over \(\mathbb{Q}\), given that its discriminant is \(2^{14}3^27^2\).
+
+================================================================================
+
+QUESTION 96
+Calculate the limit of the expression \((1+\tan(x))^{\tan(2x)}\) as \(x\) approaches \(\frac{\pi}{2}\), without using l'Hopital's rule.
+
+================================================================================
+
+QUESTION 97
+Given that \( f(x) \) is a polynomial of degree 3, and its remainders are \( 2x-5 \) and \( -3x+4 \) when divided by \( x^2 - 1 \) and \( x^2 - 4 \) respectively, find the value of \( f(-3) \).
+
+================================================================================
+
+QUESTION 98
+Calculate the derivative of the conjugate of a complex number $c$ with respect to $c$ itself. Specifically, find $\frac{\partial (c^*)}{\partial c}$, where $c \in \mathbb{C}$.
+
+================================================================================
+
+QUESTION 99
+How many possible outcomes are there when rolling 10 dice, each showing a number from 1 to 6?
+
+================================================================================
+
+QUESTION 100
+Consider the heat equation given by \( \frac{\partial{^2u}}{\partial{x^2}}=\frac{\partial{u}}{\partial{t}} \) with the initial condition \( u(x,0) = \cos(x) \) and the condition that \( u(x,t) \to 0 \) as \( t \to \infty \). Determine which of the following expressions correctly represents the solution \( u(x,t) \): 1. \( u=\sum^\infty_{n=1}a_n\sin(nx+b_n)e^{-nt} \), where \( a_n,b_n \) are arbitrary constants. 2. \( u=\sum^\infty_{n=1}a_n\sin(nx+b_n)e^{-n^2t} \), where \( a_n,b_n \) are arbitrary constants. 3. \( u=\sum^\infty_{n=1}a_n\cos(nx+b_n)e^{-nt} \), where \( a_n \) are not all zeros and \( b_n=0 \). 4. \( u=\sum^\infty_{n=1}a_n\cos(nx+b_n)e^{-n^2t} \), where \( a_1\neq0,\;a_n=0 \text{ for } n>1,b_n=0 \text{ for } n\geq1 \).
+
+================================================================================
+
