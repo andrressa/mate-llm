@@ -1,16 +1,5 @@
 ROUND 4 — HUMAN-VALIDATED ANNOTATIONS
 Sample size: 100 problems
-Validation resource: codebook B(4) after Round 4 (55 entries)
-Status: human reference annotations
-
-VALIDATION PRINCIPLES
-- Retain only concepts explicitly grounded in words, expressions, or mathematical symbols.
-- Apply normalized terminology from B(4).
-- Preserve explicit symbolic distinctions and specific mathematical structures.
-- Prefer atomic labels and remove synonymous or redundant labels.
-- Exclude concepts inferred only from background knowledge, derivation, or a possible solution strategy.
-- Explicitly named methods remain annotatable even when mentioned as prohibited or optional methods.
-- Preserve finite-sum versus infinite-series distinctions and the specialized matrix, number-theory, probability, and algebraic terminology introduced in B(4).
 
 ========================================================================================
 HUMAN-VALIDATED ANNOTATIONS
