@@ -1,17 +1,5 @@
 CODEBOOK B(2) — AFTER ROUND 2
 
-STATUS
-This is the cumulative codebook after Round 2. It contains 37 numbered entries: the 18 initial criteria from B(0) plus 19 validated additions accumulated through this round.
-
-SOURCE AND REVISION BASIS
-Round 2 basis: deepmath_30.txt. Because the supplied file is cumulative, Questions 21–30 provide the newly introduced evidence for this update; the previous 20 questions remain governed by B(1).
-
-ARTICLE-ALIGNED REVISION FOCUS
-Prioritize normalization consistency, atomic labels, removal of synonymous/redundant labels, and explicit textual or symbolic grounding.
-
-GENERAL ANNOTATION PRINCIPLE
-Every concept must be grounded in an identifiable word, expression, or mathematical symbol. Do not infer unstated properties or concepts required only by a possible solution strategy. Use normalized labels, preserve explicit symbolic distinctions, and remove synonymous duplicates.
-
 ENTRIES
 
 1. Explicit grounding
