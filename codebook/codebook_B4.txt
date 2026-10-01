@@ -1,17 +1,5 @@
 CODEBOOK B(4) — AFTER ROUND 4
 
-STATUS
-This is the cumulative codebook after Round 4. It contains 55 numbered entries: the 18 initial criteria from B(0) plus 37 validated additions accumulated through this round.
-
-SOURCE AND REVISION BASIS
-Round 4 basis: deepmath_100.txt. Because the supplied file is cumulative, Questions 51–100 provide the newly introduced evidence for this update; rules from B(3) are retained.
-
-ARTICLE-ALIGNED REVISION FOCUS
-Finalize normalization rules for explicitly named methods, finite versus infinite sums, matrix terminology, differential equations, number theory, probability, set/algebraic structures, and other recurrent symbolic patterns.
-
-GENERAL ANNOTATION PRINCIPLE
-Every concept must be grounded in an identifiable word, expression, or mathematical symbol. Do not infer unstated properties or concepts required only by a possible solution strategy. Use normalized labels, preserve explicit symbolic distinctions, and remove synonymous duplicates.
-
 ENTRIES
 
 1. Explicit grounding
