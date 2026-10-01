@@ -1,14 +1,5 @@
 ROUND 3 — HUMAN-VALIDATED ANNOTATIONS
 Sample size: 50 problems
-Validation resource: codebook B(3) after Round 3 (45 entries)
-Status: human reference annotations
-
-VALIDATION PRINCIPLES
-- Retain only concepts explicitly grounded in words, expressions, or symbols.
-- Apply normalized terminology from B(3).
-- Preserve explicit symbolic distinctions and specific mathematical structures.
-- Prefer atomic labels and remove synonymous or redundant labels.
-- Exclude concepts inferred only from background knowledge or a possible solution strategy.
 
 ========================================================================================
 HUMAN-VALIDATED ANNOTATIONS
