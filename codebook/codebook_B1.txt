@@ -1,16 +1,5 @@
 CODEBOOK B(1) — AFTER ROUND 1
 
-STATUS
-This is the cumulative codebook after Round 1. It contains 28 numbered entries: the 18 initial criteria from B(0) plus 10 validated additions accumulated through this round.
-
-SOURCE AND REVISION BASIS
-Round 1 basis: deepmath_20(1).txt, Questions 1–20. The rules below were selected to resolve recurrent omissions, insufficient specificity, and symbolic-normalization issues visible in this batch.
-
-ARTICLE-ALIGNED REVISION FOCUS
-After the initial round, prioritize omitted explicitly represented concepts and insufficiently specific labels. Add only rules justified by human-validated annotation decisions.
-
-GENERAL ANNOTATION PRINCIPLE
-Every concept must be grounded in an identifiable word, expression, or mathematical symbol. Do not infer unstated properties or concepts required only by a possible solution strategy. Use normalized labels, preserve explicit symbolic distinctions, and remove synonymous duplicates.
 
 ENTRIES
 
